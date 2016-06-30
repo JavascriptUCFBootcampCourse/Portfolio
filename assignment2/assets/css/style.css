@@ -1,0 +1,101 @@
+body {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png");
+}
+
+.header {
+	border-bottom: 2px solid #cccccc;
+}
+
+.namebox {
+	background:#4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	padding: 25px 0px;
+	width: 20%;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-weight: bolder;
+}
+
+.menu {
+	padding-top: 20px;
+
+}
+
+h1, .panel-title {
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bolder;
+
+}
+
+.contentsizing {
+	padding: 10px 40px;
+	border: 2px solid #dddddd;
+}
+
+
+.page-header {
+	border-bottom: 2px solid #cccccc;
+}
+
+.connectwithme {
+	margin-left: 40px;
+	border: 2px solid #dddddd;
+}
+
+.panel-heading {
+	background: #ffffff !important;
+	border-bottom: 2px solid #cccccc;
+}
+
+
+footer{
+	padding-top: 211px;
+}
+
+.footerborder {
+	height: 10px;
+	background: #4aaaa5;
+}
+
+.footercontent {
+	padding: 35px 0px; 
+	background: #666666; 
+	text-align: center; 
+	color: white;
+	font-size: smaller;
+}
+
+
+
+
+/*Contact Page*/
+
+textarea.form-control {
+	height: 150px;
+}
+
+
+/*Portfolio Page*/
+
+.contentsizing div.row {
+	padding-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+	div.contentsizing{
+		width: 50%;
+	}
+
+	div.connectwithme {
+		width: 50%;
+	}
+
+
+}
